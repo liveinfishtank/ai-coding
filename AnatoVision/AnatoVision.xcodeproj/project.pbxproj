@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA0000000000000000000001 /* AnatoVisionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000101 /* AnatoVisionApp.swift */; };
+		AA0000000000000000000002 /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000102 /* AppEnvironment.swift */; };
+		AA0000000000000000000003 /* ReviewSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000103 /* ReviewSession.swift */; };
+		AA0000000000000000000004 /* AnatomyReviewing.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000104 /* AnatomyReviewing.swift */; };
+		AA0000000000000000000005 /* RemoteAnatomyReviewClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000105 /* RemoteAnatomyReviewClient.swift */; };
+		AA0000000000000000000006 /* MockAnatomyReviewClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000106 /* MockAnatomyReviewClient.swift */; };
+		AA0000000000000000000007 /* ReviewSessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000107 /* ReviewSessionStore.swift */; };
+		AA0000000000000000000008 /* ReviewSessionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000108 /* ReviewSessionViewModel.swift */; };
+		AA0000000000000000000009 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000109 /* ImagePicker.swift */; };
+		AA000000000000000000000A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000000000000000000010A /* HomeView.swift */; };
+		AA000000000000000000000B /* AnalyzingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000000000000000000010B /* AnalyzingView.swift */; };
+		AA000000000000000000000C /* ErrorStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000000000000000000010C /* ErrorStateView.swift */; };
+		AA000000000000000000000D /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000000000000000000010D /* ResultView.swift */; };
+		AA000000000000000000000E /* RedlineRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000000000000000000010E /* RedlineRenderer.swift */; };
+		AA000000000000000000000F /* ImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000000000000000000010F /* ImageProcessor.swift */; };
+		AA0000000000000000000013 /* StoredImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000116 /* StoredImageView.swift */; };
+		AA0000000000000000000010 /* ReviewSessionStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000110 /* ReviewSessionStoreTests.swift */; };
+		AA0000000000000000000011 /* RemoteAnatomyReviewClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000111 /* RemoteAnatomyReviewClientTests.swift */; };
+		AA0000000000000000000012 /* ReviewSessionViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000112 /* ReviewSessionViewModelTests.swift */; };
+		AA0000000000000000000014 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000117 /* Assets.xcassets */; };
+		AA0000000000000000000015 /* ImageProcessorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000118 /* ImageProcessorTests.swift */; };
+		AA0000000000000000000016 /* WeaknessTrend.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000119 /* WeaknessTrend.swift */; };
+		AA0000000000000000000017 /* WeaknessTrendAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000000000000000000011A /* WeaknessTrendAnalyzer.swift */; };
+		AA0000000000000000000018 /* WeaknessTrendAnalyzerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000000000000000000011B /* WeaknessTrendAnalyzerTests.swift */; };
+		AA0000000000000000000019 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = AA000000000000000000011C /* PrivacyInfo.xcprivacy */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA0000000000000000000201 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA0000000000000000000301 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA0000000000000000000401;
+			remoteInfo = AnatoVision;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA0000000000000000000101 /* AnatoVisionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnatoVisionApp.swift; sourceTree = "<group>"; };
+		AA0000000000000000000102 /* AppEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnvironment.swift; sourceTree = "<group>"; };
+		AA0000000000000000000103 /* ReviewSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewSession.swift; sourceTree = "<group>"; };
+		AA0000000000000000000104 /* AnatomyReviewing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnatomyReviewing.swift; sourceTree = "<group>"; };
+		AA0000000000000000000105 /* RemoteAnatomyReviewClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteAnatomyReviewClient.swift; sourceTree = "<group>"; };
+		AA0000000000000000000106 /* MockAnatomyReviewClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAnatomyReviewClient.swift; sourceTree = "<group>"; };
+		AA0000000000000000000107 /* ReviewSessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewSessionStore.swift; sourceTree = "<group>"; };
+		AA0000000000000000000108 /* ReviewSessionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewSessionViewModel.swift; sourceTree = "<group>"; };
+		AA0000000000000000000109 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		AA000000000000000000010A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		AA000000000000000000010B /* AnalyzingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyzingView.swift; sourceTree = "<group>"; };
+		AA000000000000000000010C /* ErrorStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorStateView.swift; sourceTree = "<group>"; };
+		AA000000000000000000010D /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		AA000000000000000000010E /* RedlineRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedlineRenderer.swift; sourceTree = "<group>"; };
+		AA000000000000000000010F /* ImageProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageProcessor.swift; sourceTree = "<group>"; };
+		AA0000000000000000000110 /* ReviewSessionStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewSessionStoreTests.swift; sourceTree = "<group>"; };
+		AA0000000000000000000111 /* RemoteAnatomyReviewClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteAnatomyReviewClientTests.swift; sourceTree = "<group>"; };
+		AA0000000000000000000112 /* ReviewSessionViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewSessionViewModelTests.swift; sourceTree = "<group>"; };
+		AA0000000000000000000113 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA0000000000000000000114 /* AnatoVision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnatoVision.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA0000000000000000000115 /* AnatoVisionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnatoVisionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA0000000000000000000116 /* StoredImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoredImageView.swift; sourceTree = "<group>"; };
+		AA0000000000000000000117 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA0000000000000000000118 /* ImageProcessorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageProcessorTests.swift; sourceTree = "<group>"; };
+		AA0000000000000000000119 /* WeaknessTrend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaknessTrend.swift; sourceTree = "<group>"; };
+		AA000000000000000000011A /* WeaknessTrendAnalyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaknessTrendAnalyzer.swift; sourceTree = "<group>"; };
+		AA000000000000000000011B /* WeaknessTrendAnalyzerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaknessTrendAnalyzerTests.swift; sourceTree = "<group>"; };
+		AA000000000000000000011C /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA0000000000000000000501 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		AA0000000000000000000502 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA0000000000000000000601 = {
+			isa = PBXGroup;
+			children = (
+				AA0000000000000000000602 /* AnatoVision */,
+				AA0000000000000000000608 /* AnatoVisionTests */,
+				AA0000000000000000000609 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA0000000000000000000602 /* AnatoVision */ = {
+			isa = PBXGroup;
+			children = (
+				AA0000000000000000000603 /* App */,
+				AA0000000000000000000604 /* Models */,
+				AA0000000000000000000605 /* Services */,
+				AA0000000000000000000606 /* ViewModels */,
+				AA0000000000000000000607 /* Views */,
+				AA0000000000000000000610 /* Utilities */,
+				AA0000000000000000000117 /* Assets.xcassets */,
+				AA0000000000000000000113 /* Info.plist */,
+				AA000000000000000000011C /* PrivacyInfo.xcprivacy */,
+			);
+			path = AnatoVision;
+			sourceTree = "<group>";
+		};
+		AA0000000000000000000603 /* App */ = {isa = PBXGroup; children = (AA0000000000000000000101, AA0000000000000000000102); path = App; sourceTree = "<group>"; };
+		AA0000000000000000000604 /* Models */ = {isa = PBXGroup; children = (AA0000000000000000000103, AA0000000000000000000119); path = Models; sourceTree = "<group>"; };
+		AA0000000000000000000605 /* Services */ = {isa = PBXGroup; children = (AA0000000000000000000104, AA0000000000000000000105, AA0000000000000000000106, AA0000000000000000000107, AA000000000000000000011A); path = Services; sourceTree = "<group>"; };
+		AA0000000000000000000606 /* ViewModels */ = {isa = PBXGroup; children = (AA0000000000000000000108); path = ViewModels; sourceTree = "<group>"; };
+		AA0000000000000000000607 /* Views */ = {isa = PBXGroup; children = (AA0000000000000000000109, AA000000000000000000010A, AA000000000000000000010B, AA000000000000000000010C, AA000000000000000000010D, AA0000000000000000000116); path = Views; sourceTree = "<group>"; };
+		AA0000000000000000000608 /* AnatoVisionTests */ = {isa = PBXGroup; children = (AA0000000000000000000110, AA0000000000000000000111, AA0000000000000000000112, AA0000000000000000000118, AA000000000000000000011B); path = AnatoVisionTests; sourceTree = "<group>"; };
+		AA0000000000000000000609 /* Products */ = {isa = PBXGroup; children = (AA0000000000000000000114, AA0000000000000000000115); name = Products; sourceTree = "<group>"; };
+		AA0000000000000000000610 /* Utilities */ = {isa = PBXGroup; children = (AA000000000000000000010E, AA000000000000000000010F); path = Utilities; sourceTree = "<group>"; };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA0000000000000000000401 /* AnatoVision */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA0000000000000000000901 /* Build configuration list for PBXNativeTarget "AnatoVision" */;
+			buildPhases = (AA0000000000000000000701, AA0000000000000000000501, AA0000000000000000000801);
+			buildRules = ();
+			dependencies = ();
+			name = AnatoVision;
+			productName = AnatoVision;
+			productReference = AA0000000000000000000114 /* AnatoVision.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA0000000000000000000402 /* AnatoVisionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA0000000000000000000902 /* Build configuration list for PBXNativeTarget "AnatoVisionTests" */;
+			buildPhases = (AA0000000000000000000702, AA0000000000000000000502, AA0000000000000000000802);
+			buildRules = ();
+			dependencies = (AA0000000000000000000202 /* PBXTargetDependency */);
+			name = AnatoVisionTests;
+			productName = AnatoVisionTests;
+			productReference = AA0000000000000000000115 /* AnatoVisionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA0000000000000000000301 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					AA0000000000000000000401 = {CreatedOnToolsVersion = 15.0;};
+					AA0000000000000000000402 = {CreatedOnToolsVersion = 15.0; TestTargetID = AA0000000000000000000401;};
+				};
+			};
+			buildConfigurationList = AA0000000000000000000903 /* Build configuration list for PBXProject "AnatoVision" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = ja;
+			hasScannedForEncodings = 0;
+			knownRegions = (ja, en, Base);
+			mainGroup = AA0000000000000000000601;
+			productRefGroup = AA0000000000000000000609 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (AA0000000000000000000401, AA0000000000000000000402);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA0000000000000000000801 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (AA0000000000000000000014 /* Assets.xcassets in Resources */, AA0000000000000000000019 /* PrivacyInfo.xcprivacy in Resources */); runOnlyForDeploymentPostprocessing = 0; };
+		AA0000000000000000000802 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA0000000000000000000701 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (AA0000000000000000000001, AA0000000000000000000002, AA0000000000000000000003, AA0000000000000000000004, AA0000000000000000000005, AA0000000000000000000006, AA0000000000000000000007, AA0000000000000000000008, AA0000000000000000000009, AA000000000000000000000A, AA000000000000000000000B, AA000000000000000000000C, AA000000000000000000000D, AA000000000000000000000E, AA000000000000000000000F, AA0000000000000000000013, AA0000000000000000000016, AA0000000000000000000017);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA0000000000000000000702 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (AA0000000000000000000010, AA0000000000000000000011, AA0000000000000000000012, AA0000000000000000000015, AA0000000000000000000018);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA0000000000000000000202 /* PBXTargetDependency */ = {isa = PBXTargetDependency; target = AA0000000000000000000401 /* AnatoVision */; targetProxy = AA0000000000000000000201 /* PBXContainerItemProxy */; };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AA0000000000000000000A01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("DEBUG=1", "$(inherited)");
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA0000000000000000000A02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA0000000000000000000A03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = AnatoVision/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/Frameworks");
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.AnatoVision;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA0000000000000000000A04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = AnatoVision/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/Frameworks");
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.AnatoVision;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AA0000000000000000000A05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/Frameworks", "@loader_path/Frameworks");
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.AnatoVisionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnatoVision.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AnatoVision";
+			};
+			name = Debug;
+		};
+		AA0000000000000000000A06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/Frameworks", "@loader_path/Frameworks");
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.AnatoVisionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnatoVision.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AnatoVision";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA0000000000000000000901 /* Build configuration list for PBXNativeTarget "AnatoVision" */ = {isa = XCConfigurationList; buildConfigurations = (AA0000000000000000000A03, AA0000000000000000000A04); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		AA0000000000000000000902 /* Build configuration list for PBXNativeTarget "AnatoVisionTests" */ = {isa = XCConfigurationList; buildConfigurations = (AA0000000000000000000A05, AA0000000000000000000A06); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		AA0000000000000000000903 /* Build configuration list for PBXProject "AnatoVision" */ = {isa = XCConfigurationList; buildConfigurations = (AA0000000000000000000A01, AA0000000000000000000A02); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+	};
+	rootObject = AA0000000000000000000301 /* Project object */;
+}
