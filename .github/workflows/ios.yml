@@ -32,7 +32,7 @@ jobs:
       - name: Build and test
         run: |
           xcodebuild \
-            -project AnatoVision.xcodeproj \
+            -project AnatoVision/AnatoVision.xcodeproj \
             -scheme AnatoVision \
             -destination 'platform=iOS Simulator,name=iPhone 15' \
             clean test
