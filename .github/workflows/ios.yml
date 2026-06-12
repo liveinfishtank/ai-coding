@@ -34,5 +34,5 @@ jobs:
           xcodebuild \
             -project AnatoVision/AnatoVision.xcodeproj \
             -scheme AnatoVision \
-            -destination 'platform=iOS Simulator,name=iPhone 15' \
+            -destination 'platform=iOS Simulator,name=iPhone SE (3rd generation)' \
             clean test
