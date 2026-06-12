@@ -16,6 +16,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v5
 
+      - name: Show repository files
+        run: |
+          pwd
+          find . -maxdepth 4 -name "*.xcodeproj" -o -name "project.pbxproj"
+          ls -la
+          ls -la AnatoVision.xcodeproj || true
+
       - name: Show Xcode version
         run: |
           xcode-select -p
